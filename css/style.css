@@ -29,8 +29,6 @@ header {
 
 .header__top {
 	width: 100%;
-	height: 7vh;
-
 }
 
 .dropdown {
@@ -131,6 +129,7 @@ header {
 		}
 
 		.header__top {
+			height: auto;
 			background-color: #77dd77;
 		}
 
