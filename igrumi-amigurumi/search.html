@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="images/logo.jpg">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/search.css">
+	<link rel="shortcut icon" href="/images/logo.jpg">
 	<title>Игруми-Амигуруми</title>
 </head>
 
@@ -20,13 +21,13 @@
 
 			<ul class="dropdown__menu" id="list" aria-hidden="true">
 				<li class="dropdown__menu-item">
-					<a href="/search.html" class="dropdown__menu-link">Поиск схем</a>
+					<a href="/igrumi-amigurumi/search.html" class="dropdown__menu-link">Поиск схем</a>
 				</li>
 				<li class="dropdown__menu-item">
-					<a href="/shop.html" class="dropdown__menu-link">Заказать игрушку</a>
+					<a href="/igrumi-amigurumi/shop.html" class="dropdown__menu-link">Заказать игрушку</a>
 				</li>
 				<li class="dropdown__menu-item">
-					<a href="/index.html" class="dropdown__menu-link">О нас</a>
+					<a href="/igrumi-amigurumi/about.html" class="dropdown__menu-link">О нас</a>
 				</li>
 				<li class="dropdown__menu-item">
 					<a href="https://t.me/Igrumi_Amigurumi" class="dropdown__menu-link">ТГК: Игруми-Амигуруми</a>
@@ -37,13 +38,13 @@
 				<div class="nav-menu">
 					<div class="header__top-left">
 						<ul>
-							<nav><a href="/search.html">
+							<nav><a href="/igrumi-amigurumi/search.html">
 									<li>Поиск схем</li>
 								</a></nav>
-							<nav><a href="/index.html">
+							<nav><a href="/igrumi-amigurumi/about.html">
 									<li>О нас</li>
 								</a></nav>
-							<nav><a href="/shop.html">
+							<nav><a href="/igrumi-amigurumi/shop.html">
 									<li>Заказать игрушку</li>
 								</a></nav>
 						</ul>
@@ -62,12 +63,14 @@
 
 			</div>
 		</header>
-
-		
+		<div class="search">
+			<input type="text" id="search" placeholder="Название игрушки">
+			<button id="lupa_button" type="submit"><img id="lupa" src="images/search_button.png" alt=""></button>
+		</div>
 
 	</div>
 
-	<script src="js/script.js"></script>
+	<script src="/js/script.js"></script>
 </body>
 
 </html>
