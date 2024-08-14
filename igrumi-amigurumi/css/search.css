@@ -1,0 +1,35 @@
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#search {
+	width: 60%;
+	height: 5vh;
+	border: solid black 2px;
+	border-radius: 20px;
+
+}
+
+#lupa {
+	height: 5vh;
+}
+
+#lupa_button {
+	height: 5vh;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+#search::placeholder {
+	text-align: center;
+}
+
+@media (orientation: landscape) {
+	.search {
+		padding-top: 10px;
+	}
+}
