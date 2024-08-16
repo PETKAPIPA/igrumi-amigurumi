@@ -29,7 +29,6 @@ body {
 	font-family: 'Kaph';
 	margin: 0;
 	padding: 0;
-	/* background-color: #7fc8ffb6; */
 	background-image: radial-gradient(circle, #c9e8ff, #b7e0ff, #a5d8ff, #93d0ff, #7fc8ff);
 }
 
@@ -64,7 +63,6 @@ h1 {
 	font-size: medium;
 	display: block;
 	padding: 0.5lh 0;
-	/* background-color: #5be05b; */
 	background-image: linear-gradient(to bottom, #77dd77, #81e081, #8ce28b, #95e595, #9fe79f);
 
 	border: none;
@@ -73,7 +71,6 @@ h1 {
 
 .dropdown__button:hover,
 .dropdown__button:focus-visible {
-	/* background-color: #57ff6dc4; */
 	background-image: radial-gradient(circle, #b3edb3, #baefba, #c0f1c0, #c7f2c7, #cdf4cd);
 }
 
@@ -98,7 +95,6 @@ h1 {
 
 .dropdown__menu a {
 	font-size: medium;
-	/* background-color: #2dda44; */
 	background-image: radial-gradient(circle, #77dd77, #82e282, #8de78d, #98eb98, #a3f0a3);
 	color: inherit;
 	text-decoration: none;
@@ -120,7 +116,6 @@ h1 {
 
 .dropdown__menu-link:hover,
 .dropdown__menu-link:focus-visible {
-	/* background-color: #57ff6dc4; */
 	background-image: radial-gradient(circle, #b3edb3, #baefba, #c0f1c0, #c7f2c7, #cdf4cd);
 }
 
@@ -156,7 +151,6 @@ h1 {
 		visibility: visible;
 		position: relative;
 		height: auto;
-		/* background-color: #77dd77; */
 		background-image: linear-gradient(to bottom, #77dd77, #82e282, #8de78d, #98eb98, #a3f0a3);
 	}
 
