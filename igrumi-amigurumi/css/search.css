@@ -92,7 +92,6 @@
 }
 
 .info__card-description {
-	text-align: ;
 	padding-left: 10px;
 	padding-right: 2px;
 	margin-top: 0%;
@@ -117,7 +116,7 @@
 @media (orientation: landscape) {
 	.search {
 		padding-top: 10px;
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 	}
 
 	.info {
@@ -153,7 +152,6 @@
 	}
 
 	.info__card-description {
-		text-align: ;
 		padding-left: 10px;
 		padding-right: 2px;
 		margin-top: 0%;
